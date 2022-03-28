@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-size: 5rem; font-family:'Ubuntu', sans-serif; ;">Calculator</h1>
+        <div class="calculator">
+            <input type="text" class="screen" id="screen">
+            <table>
+                <tr>
+                    <td><button onclick="bin2Dec()">B2D</button></td>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>&larr;</button></td>
+                    <td><button style="background-color: #f58296;;">C</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="dec2bin()">D2B</button></td>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>&times;</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="square()">x2</button></td>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="squareRoot()">&radic;</button></td>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="log()">ln</button></td>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>=</button></td>
+                    <td><button>&divide;</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="fact()">n!</button></td>
+                    <td><button onclick="Sine()">sin</button></td>
+                    <td><button onclick="Cosine()">cos</button></td>
+                    <td><button onclick="Tan()">tan</button></td>
+                    <td><button onclick="pi()">&pi;</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="pow()">Pow</button></td>
+                    <td><button onclick="hcf()">Hcf</button></td>
+                    <td><button onclick="lcm()">Lcm</button></td>
+                    <td><button onclick="bmi()">Bmi</button></td>
+                    <td><button onclick="ex()">e</button></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
